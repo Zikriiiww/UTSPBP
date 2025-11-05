@@ -1,0 +1,904 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.8s ease;
+}
+
+.nav-link:hover{
+    font-family: 'Inter', sans-serif;
+    color: #888888;
+}
+
+
+
+.contact{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+    .theme-icon {
+      display: none;
+    }
+    [data-bs-theme="dark"] .theme-icon-dark {
+      display: inline;
+    }
+    [data-bs-theme="light"] .theme-icon-light {
+      display: inline;
+    }
+
+    /* Theme toggle button styles */
+    #theme-toggle {
+      border: none;
+      background: transparent;
+      color: inherit;
+      padding: .25rem;
+      border-radius: .375rem;
+      transition: color .2s ease;
+    }
+
+    /* Dark mode styles */
+    [data-bs-theme="dark"] #theme-toggle {
+      color: #ffffff !important;
+    }
+    [data-bs-theme="dark"] #theme-toggle .theme-icon {
+      color: #ffffff !important;
+    }
+
+    /* Light mode styles */
+    [data-bs-theme="light"] #theme-toggle {
+      background-color: transparent !important;
+      color: #000000 !important;
+    }
+    [data-bs-theme="light"] #theme-toggle .theme-icon {
+      color: #000000 !important;
+    }
+
+    /* Ensure the toggle has no background in light mode (hover/focus/active too) */
+    [data-bs-theme="light"] #theme-toggle,
+    [data-bs-theme="light"] #theme-toggle:hover,
+    [data-bs-theme="light"] #theme-toggle:focus,
+    [data-bs-theme="light"] #theme-toggle:active {
+      background-color: transparent !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+
+    /* Light mode styles */
+    [data-bs-theme="light"] {
+      --bs-body-bg: #ffffff;
+      --bs-body-color: #000000;
+    }
+
+    [data-bs-theme="light"] .navbar {
+      background-color: #ffffff !important;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    [data-bs-theme="light"] .card {
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+    }
+
+    [data-bs-theme="light"] .nav-link {
+      color: #000000 !important;
+    }
+
+    [data-bs-theme="light"] .nav-link:hover {
+      background-color: #f8f9fa;
+      color: #000000 !important;
+    }
+
+    [data-bs-theme="light"] h1,
+    [data-bs-theme="light"] h2,
+    [data-bs-theme="light"] h3,
+    [data-bs-theme="light"] h4,
+    [data-bs-theme="light"] h5,
+    [data-bs-theme="light"] h6,
+    [data-bs-theme="light"] p,
+    [data-bs-theme="light"] li,
+    [data-bs-theme="light"] .navbar-brand,
+    [data-bs-theme="light"] strong,
+    [data-bs-theme="light"] small {
+      color: #000000;
+    }
+
+    [data-bs-theme="light"] .experience-item h5,
+    [data-bs-theme="light"] .text-primary,
+    [data-bs-theme="light"] .main h1 small {
+      color: #0d6efd !important;
+    }
+
+    [data-bs-theme="light"] .text-muted,
+    [data-bs-theme="light"] .main h6 {
+      color: #6c757d !important;
+    }
+
+    /* Dark mode styles */
+    [data-bs-theme="dark"] {
+      --bs-body-bg: #0a1929;
+      --bs-body-color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .navbar {
+      background-color: #000000 !important;
+      border-bottom: 1px solid #1e3a5f;
+    }
+
+    [data-bs-theme="dark"] .card {
+      background-color: #0a1929;
+      border: 1px solid #1e3a5f;
+    }
+
+    [data-bs-theme="dark"] .nav-link {
+      color: #ffffff !important;
+    }
+
+    [data-bs-theme="dark"] .nav-link:hover {
+      background-color: #132f4c;
+    }
+
+    [data-bs-theme="dark"] h1,
+    [data-bs-theme="dark"] h2,
+    [data-bs-theme="dark"] h3,
+    [data-bs-theme="dark"] h4,
+    [data-bs-theme="dark"] h5,
+    [data-bs-theme="dark"] h6,
+    [data-bs-theme="dark"] p,
+    [data-bs-theme="dark"] li,
+    [data-bs-theme="dark"] .navbar-brand {
+      color: #ffffff;
+    }
+
+    /* Light mode specific styles */
+    [data-bs-theme="light"] .card-body h4,
+    [data-bs-theme="light"] .card-body p {
+      color: #000000;
+    }
+
+    [data-bs-theme="light"] .text-muted {
+      color: #6c757d !important;
+    }
+
+    [data-bs-theme="light"] .card b {
+      color: #000000;
+    }
+
+    [data-bs-theme="light"] .btn-dark {
+      background-color: #000000;
+      border-color: #000000;
+      color: #ffffff;
+    }
+
+    [data-bs-theme="light"] .btn-dark:hover {
+      background-color: #424649;
+      border-color: #373b3e;
+    }
+
+    [data-bs-theme="light"] .btn-outline-dark {
+      color: #212529;
+      border-color: #212529;
+    }
+
+    [data-bs-theme="light"] .btn-outline-dark:hover {
+      background-color: #212529;
+      color: #ffffff;
+    }
+
+    [data-bs-theme="light"] .progress {
+      background-color: #e9ecef;
+    }
+
+    [data-bs-theme="light"] .progress-bar {
+      background-color: #0d6efd;
+    }
+
+    [data-bs-theme="light"] .circle {
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+
+    [data-bs-theme="light"] .counter-section {
+      background-color: #212529;
+    }
+
+    [data-bs-theme="light"] .Services,
+    [data-bs-theme="light"] .portfolio,
+    [data-bs-theme="light"] .contact,
+    [data-bs-theme="light"] .about,
+    [data-bs-theme="light"] .main {
+      background-color: #ffffff;
+    }
+
+    /* Light mode: about section specifics */
+    [data-bs-theme="light"] .about {
+      background-color: #ffffff;
+      color: #000000;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    [data-bs-theme="light"] .about h2,
+    [data-bs-theme="light"] .about p,
+    [data-bs-theme="light"] .about label,
+    [data-bs-theme="light"] .about .tab-content {
+      color: #000000;
+    }
+
+    /* Ensure elements that use utility classes update in light mode */
+    [data-bs-theme="light"] .text-white {
+      color: #000000 !important;
+    }
+    [data-bs-theme="light"] .bg-dark {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+    }
+
+    [data-bs-theme="light"] .bg-white {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+    }
+
+    [data-bs-theme="light"] .form-control {
+      background-color: #ffffff;
+      color: #000000;
+      border-color: #ced4da;
+    }
+
+    [data-bs-theme="light"] .form-control::placeholder {
+      color: #6c757d;
+    }
+
+    /* Light mode: add border box around contact info column */
+    [data-bs-theme="light"] .contact .col-lg-4 {
+      background-color: #ffffff !important;
+      color: #000000 !important;
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(16,24,40,0.04);
+      padding: 2rem !important;
+    }
+
+    /* Dark mode specific styles */
+    [data-bs-theme="dark"] .text-muted {
+      color: #a0aec0 !important;
+    }
+
+    [data-bs-theme="dark"] .btn-dark {
+      background-color: #1e3a5f;
+      border-color: #2d4a6d;
+    }
+
+    [data-bs-theme="dark"] .btn-dark:hover {
+      background-color: #2d4a6d;
+      border-color: #3d5a7d;
+    }
+
+    [data-bs-theme="dark"] .btn-outline-dark {
+      color: #ffffff;
+      border-color: #1e3a5f;
+    }
+
+    [data-bs-theme="dark"] .btn-outline-dark:hover {
+      background-color: #1e3a5f;
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .progress {
+      background-color: #132f4c;
+    }
+
+    [data-bs-theme="dark"] .progress-bar {
+      background-color: #2d4a6d;
+    }
+
+    [data-bs-theme="dark"] .circle {
+      background-color: #1e3a5f;
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .counter-section {
+      background-color: #132f4c;
+    }
+
+    [data-bs-theme="dark"] .Services,
+    [data-bs-theme="dark"] .portfolio,
+    [data-bs-theme="dark"] .contact,
+    [data-bs-theme="dark"] .main {
+      background-color: #0a1929;
+    }
+
+    /* Home section specific styles */
+    .main {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 80px;
+      margin-bottom: 1.5rem; /* small gap between Home and About */
+    }
+
+    /* Dark-mode only: horizontal side spacing for Home section */
+    [data-bs-theme="dark"] .main {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      [data-bs-theme="dark"] .main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+    }
+
+    .main h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Theme-specific heading colors for Home */
+    [data-bs-theme="dark"] .main h1 {
+      color: #ffffff;
+    }
+    [data-bs-theme="light"] .main h1 {
+      color: #000000;
+    }
+
+    .main h1 small {
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    [data-bs-theme="dark"] .main h1 small {
+      color: #66b3ff;
+    }
+    [data-bs-theme="light"] .main h1 small {
+      color: #0d6efd;
+    }
+
+    .main h6 {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    [data-bs-theme="dark"] .main h6 {
+      color: #a0aec0;
+    }
+    [data-bs-theme="light"] .main h6 {
+      color: #6c757d;
+    }
+
+    /* Custom Dark Mode Styles */
+    [data-bs-theme="dark"] {
+      --bs-body-bg: #000000;
+      --bs-body-color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .navbar {
+      background-color: #000000;
+      border-bottom: 1px solid #343a40;
+    }
+
+    [data-bs-theme="dark"] .card {
+      background-color: #0a1929;
+      border: 1px solid #343a40;
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .bg-white {
+      background-color: #0a1929 !important;
+    }
+
+    [data-bs-theme="dark"] .bg-dark {
+      background-color: #000000 !important;
+    }
+
+    [data-bs-theme="dark"] .text-muted {
+      color: #e0e0e0 !important;
+    }
+
+    [data-bs-theme="dark"] .btn-light {
+      background-color: #0a1929;
+      border-color: #343a40;
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .btn-light:hover {
+      background-color: #132f4c;
+      border-color: #495057;
+      color: #ffffff;
+    }
+
+    /* Additional text color adjustments for dark mode */
+    [data-bs-theme="dark"] h1,
+    [data-bs-theme="dark"] h2,
+    [data-bs-theme="dark"] h3,
+    [data-bs-theme="dark"] h4,
+    [data-bs-theme="dark"] h5,
+    [data-bs-theme="dark"] h6,
+    [data-bs-theme="dark"] p,
+    [data-bs-theme="dark"] .nav-link,
+    [data-bs-theme="dark"] .navbar-brand,
+    [data-bs-theme="dark"] li,
+    [data-bs-theme="dark"] small {
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .text-primary {
+      color: #66b3ff !important;
+    }
+
+    [data-bs-theme="dark"] strong {
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .card p {
+      color: #e0e0e0;
+    }
+
+    [data-bs-theme="dark"] .form-control {
+      background-color: #132f4c;
+      border-color: #343a40;
+      color: #e9ecef;
+    }
+
+    [data-bs-theme="dark"] .form-control::placeholder {
+      color: #6c757d;
+    }
+
+    [data-bs-theme="dark"] .progress {
+      background-color: #132f4c;
+    }
+
+    [data-bs-theme="dark"] .progress-bar {
+      background-color: #0d47a1;
+    }
+
+    [data-bs-theme="dark"] .circle {
+      background-color: #0d47a1;
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .nav-link {
+      color: #e9ecef;
+    }
+
+    [data-bs-theme="dark"] .nav-link:hover {
+      background-color: #132f4c;
+    }
+
+    /* Custom styling for sections in dark mode */
+    [data-bs-theme="dark"] .Services,
+    [data-bs-theme="dark"] .portfolio,
+    [data-bs-theme="dark"] .contact,
+    [data-bs-theme="dark"] .about {
+      background-color: #000000;
+    }
+
+    /* Dark mode: about section specifics */
+    [data-bs-theme="dark"] .about {
+      background-color: #0a1929;
+      color: #ffffff;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    [data-bs-theme="dark"] .about h2,
+    [data-bs-theme="dark"] .about p,
+    [data-bs-theme="dark"] .about label,
+    [data-bs-theme="dark"] .about .tab-content {
+      color: #ffffff;
+    }
+
+    [data-bs-theme="dark"] .counter-section {
+      background-color: #0a1929;
+      border: 1px solid #343a40;
+    }
+
+.main {
+  background: url('main.jpeg') no-repeat center center;
+  background-size: 50%;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  background-position: 95% 110%;;
+}
+
+.main h1 small {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.main h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.about {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.about .row {
+  display: flex;
+  align-items: center;
+}
+
+
+.about img {
+  width: 70%;
+  display: block;
+  margin: 0 auto; 
+}
+
+.about .btn {
+  margin-bottom: 30px; 
+}
+
+.content2 p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.experience-item h5 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.experience-item p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.experience-item .text-primary {
+  color: #000000 !important;
+  font-weight: 600;
+}
+
+.experience-item .text-muted {
+  color: #999 !important;
+}
+
+.experience-item i {
+  color: #000000;
+  font-size: 14px;
+}
+
+.experience-item {
+  border-left: 3px solid #000000;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateX(5px);
+  border-color: #000;
+}
+
+.experience-list {
+  max-height: 300px;
+  overflow-y: auto;  
+  padding-right: 10px;
+}
+
+
+.experience-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.experience-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+
+.progress {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 15px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  background-color: #000 !important;
+  width: 0;
+  animation: fillProgress 2s ease-in-out forwards;
+}
+
+@keyframes fillProgress {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--target-width);
+  }
+}
+
+.about h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+    .tabs input {
+      display: none;
+    }
+
+    .tabs label {
+      cursor: pointer;
+      border: 1px solid #333;
+      padding: 8px 20px;
+      border-radius: 5px;
+      margin-right: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .tabs input:checked + label {
+      background-color: #000;
+      color: white;
+    }
+
+    .tab-content {
+      display: none;
+      margin-top: 30px;
+      animation: fade 0.4s ease;
+    }
+    @keyframes fade {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    #tab1:checked ~ .content #content1,
+    #tab2:checked ~ .content #content2,
+    #tab3:checked ~ .content #content3 {
+    display: block;
+    }
+
+.Services small {
+  font-size: 18px;
+  color: #212529;
+  font-weight: 400; 
+  display: block;  
+  margin-top: 7px;  
+}
+    
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.1);
+  
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15); 
+}
+
+.Services h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Services h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #555;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  color: #000;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover .circle{
+  transform: translateY(-5px);
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.counter-section {
+  background: rgba(0, 0, 0, 0.9); 
+  background-image: url('your-background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.counter-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: #212529; 
+}
+
+.counter-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.counter {
+  font-size: 2.5rem;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.portfolio img {
+  width: 90%;
+  transition: 0.4s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.portfolio img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.363);
+
+}
+
+.portfolio small {
+  font-size: 18px;
+  color: #212529;
+  font-weight: 400; 
+  display: block;  
+  margin-top: 7px;  
+}
+
+.portfolio h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.blog p {
+  font-size: 18px;
+  color: #212529;
+  font-weight: 400; 
+  display: block;  
+  margin-top: 7px; 
+}
+
+.blog h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.blog small {
+  font-size: 18px;
+  color: #212529;
+  font-weight: 400; 
+  display: block;  
+  margin-top: 7px;  
+}
+
+.blog .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.1);
+  
+}
+
+.pricing h3 {
+font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px; 
+  margin-bottom: 10px;
+  color: white; 
+}
+
+.pricing h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: white; 
+}
+
+.pricing ul {
+  font-size: 18px;
+  color: white; 
+  font-weight: 400;
+  display: block;
+  margin-top: 7px;
+}
+
+.pricing h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pricing small {
+  font-size: 18px;
+  font-weight: 400; 
+  display: block;  
+  margin-top: 7px;  
+}
+
+
+
+
+.pricing .card {
+  border: 1px solid #ddd;
+  background-color: #212529;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #212529;
+}
+.contact h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.contact .btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
