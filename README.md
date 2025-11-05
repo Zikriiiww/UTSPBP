@@ -5,7 +5,7 @@ html ini juga menggabungkan konsep transaksi jual beli, di mana saya menyediakan
 
 
 
-<img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/5e15ba90-e56d-449e-96e4-b22d051fa9ae" />
+<img width="1901" height="874" alt="Image" src="https://github.com/user-attachments/assets/bd8201e5-236c-4040-b614-b62a260162ec" />
 <img width="1917" height="894" alt="image" src="https://github.com/user-attachments/assets/0707e759-d297-4464-9199-aeb604d842a8" />
 <img width="1919" height="895" alt="image" src="https://github.com/user-attachments/assets/99c5378f-3b00-4d24-9589-4dfed6ab87b9" />
 <img width="1919" height="897" alt="image" src="https://github.com/user-attachments/assets/167a48ba-101a-42ff-b168-f36d407f9d94" />
