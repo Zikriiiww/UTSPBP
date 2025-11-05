@@ -1,7 +1,8 @@
 # Portfolio
-TI 2024B Muhammad Zikri Kurniawan 24051204042 - Project Mandiri PBP 2025/2026 Ganjil
+2024B Muhammad Zikri Kurniawan 24051204042 - Project Mandiri PBP 2025/2026 Ganjil
 Portfolio ini saya buat untuk menampilkan informasi mengenai diri saya, skill, dan pengalaman saya. File ini memiliki dua tampilan yakni light mode dan dark mode
 
+Link youtube: https://youtu.be/4ejwawGOtX4
 
 
 <img width="1901" height="874" alt="Image" src="https://github.com/user-attachments/assets/bd8201e5-236c-4040-b614-b62a260162ec" />
