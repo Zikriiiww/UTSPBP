@@ -4,7 +4,16 @@ Portfolio ini saya buat untuk menampilkan informasi mengenai diri saya, skill, d
 
 Link youtube: https://youtu.be/4ejwawGOtX4
 
+Light Mode 
+<img width="1891" height="880" alt="Image" src="https://github.com/user-attachments/assets/9dde6694-b49b-4f41-a3da-f404aab90745" />
+<img width="1894" height="874" alt="Image" src="https://github.com/user-attachments/assets/6065ddaa-441c-4657-adb5-84f613c35d94" />
+<img width="1895" height="876" alt="Image" src="https://github.com/user-attachments/assets/5a9320a2-b9c7-43a7-8a86-b845e059c540" />
+<img width="1901" height="883" alt="Image" src="https://github.com/user-attachments/assets/aadb54b4-5313-43a3-b29e-7646fabab307" />
+<img width="1896" height="877" alt="Image" src="https://github.com/user-attachments/assets/aa7a20d4-77ea-4fff-9b8d-d2e5aa066832" />
+<img width="1894" height="875" alt="Image" src="https://github.com/user-attachments/assets/07c91bca-ff0e-4432-8a02-fb7950a0954e" />
+<img width="1899" height="877" alt="Image" src="https://github.com/user-attachments/assets/88990e64-1ee1-4fdc-bb6f-cb6d22eec504" />
 
+Dark Mode
 <img width="1901" height="874" alt="Image" src="https://github.com/user-attachments/assets/bd8201e5-236c-4040-b614-b62a260162ec" />
 <img width="1890" height="867" alt="Image" src="https://github.com/user-attachments/assets/227bf7f8-35b3-46bc-a5c5-59ffb938e3d7" />
 <img width="1893" height="878" alt="Image" src="https://github.com/user-attachments/assets/08c122d6-d29d-4c47-8604-9a417c081284" />
