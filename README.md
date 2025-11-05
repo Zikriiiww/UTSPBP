@@ -1,7 +1,6 @@
 # Portfolio
-2024B Daniel Steven Setyawan 24051204042 - Project Mandiri PBP 2025/2026 Ganjil
-Portfolio ini saya buat untuk menampilkan hasil karya dan layanan yang saya tawarkan di bidang desain dan pengembangan antarmuka. 
-html ini juga menggabungkan konsep transaksi jual beli, di mana saya menyediakan jasa joki untuk desain grafis, editing video, serta pembuatan UI/UX. 
+TI 2024B Muhammad Zikri Kurniawan 24051204042 - Project Mandiri PBP 2025/2026 Ganjil
+Portfolio ini saya buat untuk menampilkan informasi mengenai diri saya, skill, dan pengalaman saya. File ini memiliki dua tampilan yakni light mode dan dark mode
 
 
 
